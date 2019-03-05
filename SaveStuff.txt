@@ -1,0 +1,3 @@
+ // "qa-shared-base": "git+https://github.com/fs-eng/qa-shared-base.git",
+ // "qa-shared-base-utils": "git+https://github.com/fs-eng/qa-shared-base-utils.git",
+//  "test-generator": "git+https://github.com/fs-eng/test-generator.git"

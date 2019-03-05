@@ -1,0 +1,30 @@
+{
+  "name": "protractor-tutorial",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "contributors": [],
+  "dependencies": {
+    "chai": "~3.5.0",
+    "mocha": "3.0.0",
+    "promise": "^8.0.0",
+    "protractor": "5.2.0",
+    "superagent": "^3.6.0",
+    "superagent-promise": "^1.1.0"
+  },
+  "engines": {
+    "node": "8.9.1",
+    "npm": "5.5.1"
+  },
+  "scripts": {
+    "acceptance": "./bin/tests"
+  },
+  "devDependencies": {
+    "jasmine": "^3.3.1"
+  }
+}
