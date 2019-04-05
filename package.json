@@ -10,6 +10,8 @@
   ],
   "contributors": [],
   "dependencies": {
+    "qa-shared-base": "git+https://github.com/fs-eng/qa-shared-base.git",
+    "qa-shared-base-utils": "git+https://github.com/fs-eng/qa-shared-base-utils.git",
     "chai": "~3.5.0",
     "mocha": "3.0.0",
     "promise": "^8.0.0",

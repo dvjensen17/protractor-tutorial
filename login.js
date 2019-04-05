@@ -1,4 +1,21 @@
-// spec.js
+// login.js
+const base = new (require("qa-shared-base/lib/protractor-lib.js"))();
+
+loginUser = async (a,b) => {
+    
+     let session;
+     
+     session = await base.loginService.loginOAuthUser(a, b, "integration.familysearch.org", browser.getProcessedConfig().value_.notEC);
+     
+     let testUser = await sharedUtils.prototype.getCurrentUser(session);
+     await base.cookieUtils.setSession(session);
+     await browser.refresh();
+ //    await browser.driver.manage().logs().get('browser');
+     browser.get('http://integration.familysearch.org/dmc2');
+     return testUser;
+   }
+
+
 describe('DMC Login test', function() {
     
     var username = element(by.id('userName'));
@@ -36,30 +53,25 @@ describe('DMC Login test', function() {
             "cmossman",
             "sdunkirk"
         ];
-    var passwordTestValue = '1234pass'
+    var passwordTestValue = '1234pass';
     // var latestResult = element(by.binding('latest'));
     
 
-    loginUser = async (a, b, c, d) => {
-        await username.sendKeys(a);
-        await password.sendKeys(b);
-        await goButton.click();
-        await userDropDown.click();
-        let userDropDownMenuItems = await element.all(by.css('dropdown-menu li'));
-        expect(userDropDownMenuItems.length).toBe(c);
-        expect(userDropDownMenuItems[0].getText()).toBe(d);
-      }
+    
+    // beforeEach(function() {
 
-    beforeEach(function() {
-        browser.get('http://integration.familysearch.org/dmc2');
-    });
+    //    browser.get('http://integration.familysearch.org/dmc2');
+    // });
 
 
     it('should be able to login to all Data Admin levels', function() {
         var i;
         // browser.get('http://integration.familysearch.org/dmc2/');
         for(i = 0; i < integrationUserNameTestValues.length; i++) {
-            loginUser(integrationUserNameTestValues[i][0], passwordTestValue, integrationUserNameTestValues[i][1], integrationUserNameTestValues[i][2]);
+            loginUser(integrationUserNameTestValues[i][0], passwordTestValue);
+            let userDropDownMenuItems = element.all(by.css('dropdown-menu li'));
+            expect(userDropDownMenuItems.length).toBe(integrationUserNameTestValues[i][1]);
+            expect(userDropDownMenuItems[0].getText()).toBe(integrationUserNameTestValues[i][2]);
         }
         // // browser.ignoreSynchronization = true;
         // // username.clear();
