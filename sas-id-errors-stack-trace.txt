@@ -1,0 +1,24 @@
+dvjensen@dvjensen-dmconsole-dev:~/code/protractor-tutorial$ node encyptMyFile.js 
+Entering encryptFile.js in Protractor Tutorial
+Their should be an new encrypted file in the data folder.
+Error getting SAS Object: VError: No SAS ID provided, you must provide one via the SAS_ID environment variable or through the filesystem: first of 2 errors: ENOENT: no such file or directory, open '/tmp/.sas/id' { VError: No SAS ID provided, you must provide one via the SAS_ID environment variable or through the filesystem: first of 2 errors: ENOENT: no such file or directory, open '/tmp/.sas/id'
+    at fs.readFile.catch.then.catch (/home/dvjensen/code/protractor-tutorial/node_modules/fs-sas-client/src/sas-client.js:313:15)
+  jse_shortmsg:
+   'No SAS ID provided, you must provide one via the SAS_ID environment variable or through the filesystem',
+  jse_cause:
+   { MultiError: first of 2 errors: ENOENT: no such file or directory, open '/tmp/.sas/id'
+       at fs.readFile.catch.then.catch (/home/dvjensen/code/protractor-tutorial/node_modules/fs-sas-client/src/sas-client.js:313:26)
+     ase_errors: [ [Error], [Error] ],
+     jse_shortmsg: 'first of 2 errors',
+     jse_cause:
+      { [Error: ENOENT: no such file or directory, open '/tmp/.sas/id']
+        errno: -2,
+        code: 'ENOENT',
+        syscall: 'open',
+        path: '/tmp/.sas/id' },
+     jse_info: {},
+     message:
+      "first of 2 errors: ENOENT: no such file or directory, open '/tmp/.sas/id'" },
+  jse_info: {},
+  message:
+   "No SAS ID provided, you must provide one via the SAS_ID environment variable or through the filesystem: first of 2 errors: ENOENT: no such file or directory, open '/tmp/.sas/id'" }
