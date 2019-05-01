@@ -1,5 +1,6 @@
 // login.js
 const base = new (require("qa-shared-base/lib/protractor-lib.js"))();
+const loginLib = new (require("qa-shared-loginService/lib/loginService.js))();
 
 loginUser = async (a,b) => {
     
@@ -14,6 +15,14 @@ loginUser = async (a,b) => {
      browser.get('http://integration.familysearch.org/dmc2');
      return testUser;
    }
+
+filterBy = function(elements, attribute, value) {
+  return elements.filter(function(elem) {
+    if(elem[attribute]) {
+      return elem[attribute].includes(value);
+    }
+  })
+};
 
 
 describe('DMC Login test', function() {
