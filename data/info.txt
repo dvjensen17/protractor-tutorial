@@ -1,226 +1,227 @@
 [
 	{
-		'username': "mfraser80,
-		'firstName': "Martin",
-		'lastName': "Fraser",
-		'contribId: "BMMD-WMV",
-		'birthDate': "18-Aug-1980",
-		'role': "Data Admin 6 Member Beta",
-		'sex': "Male"
+		"username": "mfraser80",
+		"firstName": "Martin",
+		"lastName": "Fraser",
+		"contribId": "BMMD-WMV",
+		"birthDate": "18-Aug-1980",
+		"role": "Data Admin 6 Member Beta",
+		"sex": "Male"
 	},
-	{   'username': "jcrag",
-		'firstName': "John",
-		'lastName': "Cragthorpe",
-		'contribId: "BMMD-W9Q",
-		'birthDate': "7-Jul-1976",
-		'role': "Data Admin 5 Member Beta",
-		'sex': "Male"
-	},
-	{	
-		'username': "dmcguiness",
-		'firstName': "David",
-		'lastName': "McGuiness",
-		'contribId: "BMMD-7XQ",
-		'birthDate': "1-Jan-2000",
-		'role': "Data Admin 4 Member Beta",
-		'sex': "Male"
+	{   
+		"username": "jcrag",
+		"firstName": "John",
+		"lastName": "Cragthorpe",
+		"contribId": "BMMD-W9Q",
+		"birthDate": "7-Jul-1976",
+		"role": "Data Admin 5 Member Beta",
+		"sex": "Male"
 	},
 	{
-		'username': "sdoogan1",
-		'firstName': "Scooter",
-		'lastName': "Doogan",
-		'contribId: "BMMD-WS8",
-		'birthDate': "25-Dec-1950",
-		'role': "Data Admin 3 Member Beta",
-		'sex': "Male"
+		"username": "dmcguiness",
+		"firstName": "David",
+		"lastName": "McGuiness",
+		"contribId": "BMMD-7XQ",
+		"birthDate": "1-Jan-2000",
+		"role": "Data Admin 4 Member Beta",
+		"sex": "Male"
 	},
 	{
-		'username': "lfuchs0",
-		'firstName': "Layne",
-		'lastName': "Fuchs",
-		'contribId: "BMMD-478",
-		'birthDate': "14-Feb-1970",
-		'role': "Data Admin 2 Member Beta",
-		'sex': "Male"
+		"username": "sdoogan1",
+		"firstName": "Scooter",
+		"lastName": "Doogan",
+		"contribId": "BMMD-WS8",
+		"birthDate": "25-Dec-1950",
+		"role": "Data Admin 3 Member Beta",
+		"sex": "Male"
 	},
 	{
-		'username': "hmaris",
-		'firstName': "Harold",
-		'lastName': "Maris",
-		'contribId: "BMMD-7FS",
-		'birthDate': "17-Sep-1987",
-		'role': "Data Admin 1 Member Beta",
-		'sex': "Male"
+		"username": "lfuchs0",
+		"firstName": "Layne",
+		"lastName": "Fuchs",
+		"contribId": "BMMD-478",
+		"birthDate": "14-Feb-1970",
+		"role": "Data Admin 2 Member Beta",
+		"sex": "Male"
 	},
 	{
-		'username': "mmcgovern0",
-		'firstName': "Mary",
-		'lastName': "McGovern",
-		'contribId: "BMMD-WSD",
-		'birthDate': "15-Apr-1960",
-		'role': "Data Admin 6 Member Beta",
-		'sex': "Female"
-	},
-  {
-		'username': "atorgesen0",
-		'firstName': "Andrea",
-		'lastName': "Torgesen",
-		'contribId: "BMMD-47D",
-		'birthDate': "9-Sep-2001",
-		'role': "Data Admin 5 Member Beta",
-		'sex': "Female"
+		"username": "hmaris",
+		"firstName": "Harold",
+		"lastName": "Maris",
+		"contribId": "BMMD-7FS",
+		"birthDate": "17-Sep-1987",
+		"role": "Data Admin 1 Member Beta",
+		"sex": "Male"
 	},
 	{
-		'username': "sphillips0",
-		'firstName': "Serena",
-		'lastName': "Phillips",
-		'contribId: "BMMD-476",
-		'birthDate': "12-Oct-1971",
-		'role': "Data Admin 4 Member Beta",
-		'sex': "Female"
+		"username": "mmcgovern0",
+		"firstName": "Mary",
+		"lastName": "McGovern",
+		"contribId": "BMMD-WSD",
+		"birthDate": "15-Apr-1960",
+		"role": "Data Admin 6 Member Beta",
+		"sex": "Female"
 	},
 	{
-		'username': "mhatcher",
-		'firstName': "Margaret",
-		'lastName': "Hatcher",
-		'contribId: "BMMD-7F3",
-		'birthDate': "5-Apr-1966",
-		'role': "Data Admin 3 Member Beta",
-		'sex': "Female"
-	},
-  {
-		'username': "cmossman",
-		'firstName': "Cordelia",
-		'lastName': "Mossman",
-		'contribId: "BMMD-WS6",
-		'birthDate': "2-Jan-2003",
-		'role': "Data Admin 2 Member Beta",
-		'sex': "Female"
-	},
-  {
-		'username': "sdunkirk",
-		'firstName': "Sarah",
-		'lastName': "Dunkirk",
-		'contribId: "BMMD-WSX",
-		'birthDate': "8-Jul-1999",
-		'role': "Data Admin 1 Member Beta",
-		'sex': "Female"
+		"username": "atorgesen0",
+		"firstName": "Andrea",
+		"lastName": "Torgesen",
+		"contribId": "BMMD-47D",
+		"birthDate": "9-Sep-2001",
+		"role": "Data Admin 5 Member Beta",
+		"sex": "Female"
 	},
 	{
-		'username': "mfraser80",
-		'firstName': "Martin",
-		'lastName': "Fraser",
-		'contribId': "BMMD-WMV",
-		'birthDate': "18-Aug-1980",
-		'role': "Data Admin 6 Member Integ",
-		'sex': "Male"
+		"username": "sphillips0",
+		"firstName": "Serena",
+		"lastName": "Phillips",
+		"contribId": "BMMD-476",
+		"birthDate": "12-Oct-1971",
+		"role": "Data Admin 4 Member Beta",
+		"sex": "Female"
 	},
 	{
-		'username': "jcrag",
-		'firstName': "John",
-		'lastName': "Cragthorpe",
-		'contribId': "BMMD-W9Q",
-		'birthDate': "7-Jul-1976",
-		'role': "Data Admin 5 Member Integ",
-		'sex': "Male"
+		"username": "mhatcher",
+		"firstName": "Margaret",
+		"lastName": "Hatcher",
+		"contribId": "BMMD-7F3",
+		"birthDate": "5-Apr-1966",
+		"role": "Data Admin 3 Member Beta",
+		"sex": "Female"
 	},
 	{
-		'username': "dmcguiness",
-		'firstName': "David",
-		'lastName': "McGuiness",
-		'contribId': "BMMD-7XQ",
-		'birthDate': "1-Jan-2000",
-		'role': "Data Admin 4 Member Integ",
-		'sex': "Male"
+		"username": "cmossman",
+		"firstName": "Cordelia",
+		"lastName": "Mossman",
+		"contribId": "BMMD-WS6",
+		"birthDate": "2-Jan-2003",
+		"role": "Data Admin 2 Member Beta",
+		"sex": "Female"
 	},
 	{
-		'username': "sdoogan1",
-		'firstName': "Scooter",
-		'lastName': "Doogan",
-		'contribId': "BMMD-WS8",
-		'birthDate': "25-Dec-1950",
-		'role': "Data Admin 3 Member Integ",
-		'sex': "Male"
+		"username": "sdunkirk",
+		"firstName": "Sarah",
+		"lastName": "Dunkirk",
+		"contribId": "BMMD-WSX",
+		"birthDate": "8-Jul-1999",
+		"role": "Data Admin 1 Member Beta",
+		"sex": "Female"
 	},
 	{
-		'username': "lfuchs",
-		'firstName': "Layne",
-		'lastName': "Fuchs",
-		'contribId': "BMMD-478",
-		'birthDate': "14-Feb-1970",
-		'role': "Data Admin 2 Member Integ",
-		'sex': "Male"
+		"username": "mfraser80",
+		"firstName": "Martin",
+		"lastName": "Fraser",
+		"contribId": "BMMD-WMV",
+		"birthDate": "18-Aug-1980",
+		"role": "Data Admin 6 Member Integ",
+		"sex": "Male"
 	},
 	{
-		'username': "hmaris",
-		'firstName': "Harold",
-		'lastName': "Maris",
-		'contribId': "BMMD-7FS",
-		'birthDate': "17-Sep-1987",
-		'role': "Data Admin 1 Member Integ",
-		'sex': "Male"
+		"username": "jcrag",
+		"firstName": "John",
+		"lastName": "Cragthorpe",
+		"contribId": "BMMD-W9Q",
+		"birthDate": "7-Jul-1976",
+		"role": "Data Admin 5 Member Integ",
+		"sex": "Male"
 	},
 	{
-		'username': "mmcgovern",
-		'firstName': "Mary",
-		'lastName': "McGovern",
-		'contribId': "BMMD-WSD",
-		'birthDate': "15-Apr-1960",
-		'role': "Data Admin 6 Member Integ",
-		'sex': "Female"
+		"username": "dmcguiness",
+		"firstName": "David",
+		"lastName": "McGuiness",
+		"contribId": "BMMD-7XQ",
+		"birthDate": "1-Jan-2000",
+		"role": "Data Admin 4 Member Integ",
+		"sex": "Male"
 	},
 	{
-		'username': "atorgesen",
-		'firstName': "Andrea",
-		'lastName': "Torgesen",
-		'contribId': "BMMD-47D",
-		'birthDate': "9-Sep-2001",
-		'role': "Data Admin 5 Member Integ",
-		'sex': "Female"
+		"username": "sdoogan1",
+		"firstName": "Scooter",
+		"lastName": "Doogan",
+		"contribId": "BMMD-WS8",
+		"birthDate": "25-Dec-1950",
+		"role": "Data Admin 3 Member Integ",
+		"sex": "Male"
 	},
 	{
-		'username': "sphillips",
-		'firstName': "Serena",
-		'lastName': "Phillips",
-		'contribId': "BMMD-476",
-		'birthDate': "12-Oct-1971",
-		'role': "Data Admin 4 Member Integ",
-		'sex': "Female"
+		"username": "lfuchs",
+		"firstName": "Layne",
+		"lastName": "Fuchs",
+		"contribId": "BMMD-478",
+		"birthDate": "14-Feb-1970",
+		"role": "Data Admin 2 Member Integ",
+		"sex": "Male"
 	},
 	{
-		'username': "mhatcher",
-		'firstName': "Margaret",
-		'lastName': "Hatcher",
-		'contribId': "BMMD-7F3",
-		'birthDate': "5-Apr-1966",
-		'role': "Data Admin 3 Member Integ",
-		'sex': "Female"
+		"username": "hmaris",
+		"firstName": "Harold",
+		"lastName": "Maris",
+		"contribId": "BMMD-7FS",
+		"birthDate": "17-Sep-1987",
+		"role": "Data Admin 1 Member Integ",
+		"sex": "Male"
 	},
 	{
-		'username': "cmossman",
-		'firstName': "Cordelia",
-		'lastName': "Mossman",
-		'contribId': "BMMD-WS6",
-		'birthDate': "2-Jan-2003",
-		'role': "Data Admin 2 Member Integ",
-		'sex': "Female"
+		"username": "mmcgovern",
+		"firstName": "Mary",
+		"lastName": "McGovern",
+		"contribId": "BMMD-WSD",
+		"birthDate": "15-Apr-1960",
+		"role": "Data Admin 6 Member Integ",
+		"sex": "Female"
 	},
 	{
-		'username': "sdunrirk",
-		'firstName': "Sarah",
-		'lastName': "Dunrirk",
-		'contribId': "BMMD-WSX",
-		'birthDate': "8-Jul-1999",
-		'role': "Data Admin 1 Member Integ",
-		'sex': "Female"
+		"username": "atorgesen",
+		"firstName": "Andrea",
+		"lastName": "Torgesen",
+		"contribId": "BMMD-47D",
+		"birthDate": "9-Sep-2001",
+		"role": "Data Admin 5 Member Integ",
+		"sex": "Female"
 	},
 	{
-		'username': "dvjensen",
-		'firstName': "David",
-		'lastName': "Jensen",
-		'contribId': "L5B6-77N",
-		'birthDate': "17-May-1965",
-		'role': "Data Admin 1 Data Admin 2 Data Admin 3 Data Admin 4 Data Admin 5 Data Admin 6 Data Admin Lead Member Integ",
-		'sex': "Male"
+		"username": "sphillips",
+		"firstName": "Serena",
+		"lastName": "Phillips",
+		"contribId": "BMMD-476",
+		"birthDate": "12-Oct-1971",
+		"role": "Data Admin 4 Member Integ",
+		"sex": "Female"
+	},
+	{
+		"username": "mhatcher",
+		"firstName": "Margaret",
+		"lastName": "Hatcher",
+		"contribId": "BMMD-7F3",
+		"birthDate": "5-Apr-1966",
+		"role": "Data Admin 3 Member Integ",
+		"sex": "Female"
+	},
+	{
+		"username": "cmossman",
+		"firstName": "Cordelia",
+		"lastName": "Mossman",
+		"contribId": "BMMD-WS6",
+		"birthDate": "2-Jan-2003",
+		"role": "Data Admin 2 Member Integ",
+		"sex": "Female"
+	},
+	{
+		"username": "sdunrirk",
+		"firstName": "Sarah",
+		"lastName": "Dunrirk",
+		"contribId": "BMMD-WSX",
+		"birthDate": "8-Jul-1999",
+		"role": "Data Admin 1 Member Integ",
+		"sex": "Female"
+	},
+	{
+		"username": "dvjensen",
+		"firstName": "David",
+		"lastName": "Jensen",
+		"contribId": "L5B6-77N",
+		"birthDate": "17-May-1965",
+		"role": "Data Admin 1 Data Admin 2 Data Admin 3 Data Admin 4 Data Admin 5 Data Admin 6 Data Admin Lead Member Integ",
+		"sex": "Male"
 	}
 ]
