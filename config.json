@@ -1,0 +1,125 @@
+{
+  "default": {
+    "app": "test",
+    "baseHost": "integration.familysearch.org",
+    "beforeLaunchLogin": false,
+    "dataCreationBaseHost": "beta.familysearch.org",
+    "devKey": "OFFWVy02RkRTLUhNM00tNFBUNi1YWldRLUMyRFktSlRaQi0yTjJR",
+    "displayInfo": false,
+    "explicitLogin": false,
+    "experimentList": {
+    },
+    "failFast": false,
+    "framework": "mocha",
+    "generateHTMLReport": false,
+    "globalTimeout": 350000,
+    "ignoreSynchronization": true,
+    "license": "BSD-2-Clause",
+    "localCode" : false,
+    "logToSplunk": true,
+    "maxThreads": "5",
+    "mochaOpts": {
+      "reporter": "step",
+      "retries": 2,
+      "fast": 1000,
+      "slow": 10000,
+      "useColors": true
+    },
+    "overrideByCss": true,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/fs-webdev/search-artifact-test"
+    },
+    "runInParallel": true,
+    "timestampEx": true,
+    "waitTimeout": 20000,
+    "env": "integration",
+    "baseHost": "integration.familysearch.org",
+    "suites": {
+      "beta-tests": [
+        "./login.js"
+      ]
+    },
+    "retries": 2,
+    "environment": [{
+      "cumulative": true,
+      "platform": "linux-gnu",
+      "browserName": "chrome",
+      "version": "latest",
+      "name": "data-dm-console-2",
+      "recordVideo": false,
+      "recordScreenshots": false,
+      "screen_resolution": "1280x960"
+    }],
+    "location": "LOCAL",
+    "retries": 0,
+    "notEC": true,
+    "logToSplunk": false
+  },
+
+  "acceptance": {
+    "env": "integration",
+    "baseHost": "integration.familysearch.org",
+    "suites": {
+      "beta-tests": [
+        "./login.js"
+      ]
+    },
+    "retries": 2,
+    "environment": [{
+      "cumulative": true,
+      "platform": "linux-gnu",
+      "browserName": "chrome",
+      "version": "latest",
+      "name": "data-dm-console-2",
+      "recordVideo": false,
+      "recordScreenshots": false,
+      "screen_resolution": "1280x960"
+    }]
+  },
+
+  "regression": {
+    "env": "beta",
+    "baseHost": "beta.familysearch.org",
+    "suites": {
+      "beta-tests": [
+        "tests/**/*.js"
+      ]
+    },
+    "retries": 2,
+    "environment": [{
+      "cumulative": true,
+      "platform": "macOS 10.13",
+      "browserName": "chrome",
+      "version": "latest",
+      "name": "search-web-regression",
+      "recordVideo": true,
+      "recordScreenshots": true,
+      "screen_resolution": "1280x960"
+    }]
+  },
+
+  "sauce": {
+    "maxThreads": "40",
+    "location": "SAUCE"
+  },
+
+  "local": {
+    "location": "LOCAL",
+    "retries": 0,
+    "notEC": true,
+    "logToSplunk": false
+  },
+
+  "localhost": {
+    "baseHost": "localhost:5000"
+  },
+  "beta": {
+    "env": "beta",
+    "baseHost": "beta.familysearch.org"
+  },
+  "production": {
+    "env": "prod",
+    "baseHost": "www.familysearch.org"
+  }
+}
